@@ -25,7 +25,6 @@ Hai 3 modi:
 
 ```html
 <p style="color: red;">Testo rosso</p>
-Interno (nel <style> dentro il <head>
 ```
 
 ### Interno al tag `<style>`
