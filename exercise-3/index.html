@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<style>
+    *{
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin: 10px;
+        justify-content: center;
+    }
+    .big{
+        grid-column: span 2;
+        grid-row: 2;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <img src="https://placehold.co/600x400">
+        <img src="https://placehold.co/600x400">
+        <img src="https://placehold.co/1200x400" class="big">
+        <img src="https://placehold.co/600x400">
+        <img src="https://placehold.co/600x400">
+        <img src="https://placehold.co/600x400">
+        <img src="https://placehold.co/600x400">
+    </div>
+</body>
+</html>
