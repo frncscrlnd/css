@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+<style>
+    *{
+        border: 0;
+        margin: 0;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .card{
+        color: white;
+        background-color: #BF5F6F;
+        border-radius: 10%;
+        width: 400px;
+        height: 400px;
+        box-shadow: 0px 10px 10px 0px #BF7F5F;
+        padding: 15px;
+    }
+    .avatar{
+        border-radius: 50%;
+    }
+    .nome{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .bio{
+        font-size: 30px;
+    }
+    .bottoni{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+    }
+    button{
+        color: white;
+        font-size: 30px;
+        border-radius: 20px;
+        background-color: #BFAF5F;
+    }
+    button:hover{
+        background-color: white;
+        color: #BFAF5F;
+    }
+</style>
+<body>
+    <div class="card">
+        <div class="elementi">
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-LyVMRniTY8Y%2FT9XfqZFD5QI%2FAAAAAAAAAKA%2FOh-moLB7q9M%2Fs1600%2FGatto_europeo3.jpg&f=1&nofb=1&ipt=ea8230538ca47bfd9b1a9511658abd954d7a4babd0e855d80ae9556fc1bcbcd3" alt="avatar" class="avatar" width=100px;>
+            <p class="nome">Francesco</p>
+            <p class="bio">Studente del corso di cybersecurity presso l'ITS academy meccanica e informatica</p>
+        </div>
+        <div class="bottoni">
+            <button>Contattami</button>
+            <button>Scarica il mio cv</button>
+        </div>
+    </div>
+</body>
+</html>
